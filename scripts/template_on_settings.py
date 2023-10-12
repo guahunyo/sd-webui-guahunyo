@@ -6,12 +6,12 @@ from modules import shared
 from modules import script_callbacks
 
 def on_ui_settings():
-    section = ('template', "Template")
+    section = ('guahunyo', "找点乐子")
     shared.opts.add_option(
         "option1",
         shared.OptionInfo(
             False,
-            "option1 description",
+            "还没想好要设置啥",
             gr.Checkbox,
             {"interactive": True},
             section=section)
